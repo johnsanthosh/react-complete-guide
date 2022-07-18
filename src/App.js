@@ -26,7 +26,9 @@ function App() {
 
   return (
     <div className="App">
-      {expenses.map((expense) => <ExpenseItem {...expense}/>)}
+      {expenses.map((expense) => (
+        <ExpenseItem key={expense.id} {...expense} />
+      ))}
     </div>
   );
 }

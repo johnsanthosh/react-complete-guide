@@ -23,8 +23,8 @@ const ExpenseItem = ({ title, amount, date }) => {
 
 export default ExpenseItem;
 
-ExpenseItem.protoTypes = {
+ExpenseItem.propTypes = {
   title: PropTypes.string,
   amount: PropTypes.number,
-  date: PropTypes.date,
+  date: PropTypes.object,
 };
