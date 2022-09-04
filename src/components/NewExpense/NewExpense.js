@@ -10,7 +10,6 @@ const NewExpense = ({onAdd}) => {
       id: Math.random().toString(),
     };
     onAdd(expenseData);
-    console.log(expenseData);
   };
 
   return (
