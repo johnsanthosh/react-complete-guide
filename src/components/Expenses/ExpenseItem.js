@@ -27,6 +27,6 @@ export default ExpenseItem;
 
 ExpenseItem.propTypes = {
   title: PropTypes.string,
-  amount: PropTypes.number,
+  amount: PropTypes.string,
   date: PropTypes.object,
 };
