@@ -27,6 +27,7 @@ function App() {
   ]);
 
   const addExpenseHandler = (expense) => {
+    // use prevExpenses to safely update expenses.
     setExpenses((prevExpenses) => [...prevExpenses, expense]);
   };
 
