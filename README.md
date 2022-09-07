@@ -17,6 +17,14 @@
     - [variation2](./login-app/src/components/Login/Login.js#L31)
     - [variation3](./login-app/src/components/Login/Login.js#L39)
     - [cleanup](./login-app/src/components/Login/Login.js#L47)
+ - `useReducer` :
+    - `const [state, dispatchFn] = useReducer(reducerFn, initialState, initFn)`
+    - state: The state snapshot used in the component re-render/re-evaluation cycle
+    - dispatchFn: A function that can be used to dispatch a new action (i.e. trigger an update of the state)
+    - reducerFn: `(prevState, action) => newState`. A function that is triggered automatically once an action is dispatched (via dispatchFn()) - it receives the latest state snapshot and should return the new, updated state.
+    - initialState: The initial state.
+    - initFn: A function to set the initial state programmatically.
+    - [example](./use-reducer/src/components/Login/Login.js#L31)
 
 ## How to run project
 
