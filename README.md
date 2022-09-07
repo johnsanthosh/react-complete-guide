@@ -13,7 +13,10 @@
     - [example](./login-app/src/App.js#L22)
  - `useEffect` : A function that gets executed AFTER every component evaluation IF the specified dependencies changed.
     - `useEffect(() => {...}, [ dependencies ])`
-    - [example](./login-app/src/App.js#L11)
+    - [variation1](./login-app/src/App.js#L11)
+    - [variation2](./login-app/src/components/Login/Login.js#L31)
+    - [variation3](./login-app/src/components/Login/Login.js#L39)
+    - [cleanup](./login-app/src/components/Login/Login.js#L47)
 
 ## How to run project
 
