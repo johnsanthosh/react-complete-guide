@@ -25,6 +25,11 @@
     - initialState: The initial state.
     - initFn: A function to set the initial state programmatically.
     - [example](./use-reducer/src/components/Login/Login.js#L31)
+  - React Context - `useContext` : Component-wide Benhind the scenes, state storage.
+    - [step1](./use-reducer/src/store/authContext.js)
+    - [step2](./use-reducer/src/App.js#L32)
+    - [step3](./use-reducer/src/components/MainHeader/Navigation.js#L7)
+  
 
 ## How to run project
 
