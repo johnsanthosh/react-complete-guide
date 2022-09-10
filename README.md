@@ -14,9 +14,9 @@
  - `useEffect` : A function that gets executed AFTER every component evaluation IF the specified dependencies changed.
     - `useEffect(() => {...}, [ dependencies ])`
     - [variation1](./login-app/src/App.js#L11)
-    - [variation2](./login-app/src/components/Login/Login.js#L31)
-    - [variation3](./login-app/src/components/Login/Login.js#L39)
-    - [cleanup](./login-app/src/components/Login/Login.js#L47)
+    - [variation2](./login-app/src/components/Login/Login.js#L23)
+    - [variation3](./login-app/src/components/Login/Login.js#L31)
+    - [cleanup](./login-app/src/components/Login/Login.js#L39)
  - `useReducer` :
     - `const [state, dispatchFn] = useReducer(reducerFn, initialState, initFn)`
     - state: The state snapshot used in the component re-render/re-evaluation cycle
@@ -24,7 +24,7 @@
     - reducerFn: `(prevState, action) => newState`. A function that is triggered automatically once an action is dispatched (via dispatchFn()) - it receives the latest state snapshot and should return the new, updated state.
     - initialState: The initial state.
     - initFn: A function to set the initial state programmatically.
-    - [example](./use-reducer/src/components/Login/Login.js#L31)
+    - [example](./use-reducer/src/components/Login/Login.js#L36)
   - React Context - `useContext` : Component-wide Benhind the scenes, state storage.
     - [step1](./use-reducer/src/store/authContext.js)
     - [step2](./use-reducer/src/App.js#L32)
