@@ -27,7 +27,7 @@
     - [example](./use-reducer/src/components/Login/Login.js#L36)
   - React Context - `useContext` : Component-wide Benhind the scenes, state storage.
     - [step1](./use-reducer/src/store/authContext.js)
-    - [step2](./use-reducer/src/App.js#L32)
+    - [step2](./use-reducer/src/index.js#L10)
     - [step3](./use-reducer/src/components/MainHeader/Navigation.js#L7)
   
 
