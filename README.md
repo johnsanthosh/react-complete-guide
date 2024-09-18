@@ -1,5 +1,23 @@
 # Learn react concepts by using examples:
 
+- Components:
+  Basic building blocks of a React application.
+
+  Advantages: 
+  - Reusable building blocks
+  - Related code lives together
+  - Separation of concerns
+
+  Rules:
+  - Components must return Renderable content (JSX)
+  - Components must begin with a Uppercase letter
+
+- JSX:
+  - A syntax extension for JavaScript.
+  - Looks like HTML
+
+
+
 - `useState` :
   - [step1](./expenses-app/src/App.js#L7)
   - [step2](./expenses-app/src/App.js#L31)
