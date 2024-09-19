@@ -16,7 +16,11 @@
   - A syntax extension for JavaScript.
   - Looks like HTML
 
-
+- Hooks:
+  
+  Rules:
+  - Hooks must be called at the top level of a component
+  - Hooks must be called in the function body of a functional component or a custom hook
 
 - `useState` :
   - [step1](./expenses-app/src/App.js#L7)
